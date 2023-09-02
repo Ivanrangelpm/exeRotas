@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,34 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+nav{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: royalblue;
+
+  & a{color: white; font-size: 1.5em; padding: 15px;}
+}
+
+main{
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+footer{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: darkblue;
 }
